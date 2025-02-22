@@ -1,0 +1,11 @@
+{
+    "name": "vendor/jlscent",
+    "description": "composer",
+    "type": "library",
+    "require": {
+        "twilio/sdk": "^8.3",
+        "fpdf/fpdf": "^1.86",
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "minimum-stability": "stable"
+}

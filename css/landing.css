@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #E9EFEC; 
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background: #16423C; 
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background: #16423C;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  color: #E9EFEC; 
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #E9EFEC; 
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  background: #6A9C89;
+  color: #fff; 
+}
+
+.navbar ul li a:active {
+  background: #5A8C77; 
+}
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax-1 {
+  background-image: url('image/perfume.jpg');
+}
+
+.parallax-2 {
+  background-image: url('image/pomade.png');
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #E9EFEC; 
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overlay h1, .overlay h2 {
+  font-size: 3rem;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #6A9C89;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #5A8C77; 
+}
+
+.content-section {
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  color: #E9EFEC; 
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+footer {
+  background-color: #16423C;
+  padding: 40px 20px;
+  border-top: 1px solid #e0e0e0;
+  font-family: Arial, sans-serif;
+  color: #E9EFEC; 
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Columns */
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E9EFEC; 
+}
+
+.footer-column p,
+.footer-column ul,
+.footer-column form {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #E9EFEC; 
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.newsletter-form button {
+  background-color: #16423C;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #0d3329; 
+
+.privacy-policy {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.privacy-policy label {
+  line-height: 1.4;
+}
+
+.privacy-policy a {
+  color: #E9EFEC; 
+  text-decoration: underline;
+}
+
+.privacy-policy a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .overlay h1, .overlay h2 {
+    font-size: 2.2rem;
+  }
+}
+}

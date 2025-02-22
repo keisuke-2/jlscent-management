@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #16423C, #6A9C89);
+    color: #E9EFEC;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: #16423C;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar .nav-link {
+    color: #E9EFEC;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #b0c4de;
+    text-decoration: underline;
+}
+
+header {
+    background: #16423C;
+    padding: 40px 0;
+    text-align: center;
+    color: #E9EFEC;
+}
+
+.nav-tabs .nav-link {
+    color: #E9EFEC;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+    color: #2ecc71;
+    border-bottom: 2px solid #2ecc71;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #b0c4de;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #16423C;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h5 {
+    color: #16423C;
+}
+
+.card p {
+    color: #777;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #E9EFEC;
+    padding: 20px;
+    text-align: center;
+}

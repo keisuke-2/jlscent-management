@@ -1,0 +1,144 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333; 
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #16423C; 
+    color: #E9EFEC; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#sidebar ul li {
+    padding: 10px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #E9EFEC; 
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+#sidebar ul li.active a {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #6A9C89; 
+}
+
+#content {
+    margin-left: 250px;
+    padding: 20px;
+    color: #333;
+    width: 100%;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #16423C;
+}
+
+.card h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #16423C;
+}
+
+.text-success span {
+    font-weight: 500;
+    margin-right: 0.5rem;
+    color: #6A9C89;
+}
+
+.text-danger span {
+    font-weight: 500;
+    margin-right: 0.5rem;
+    color: #D9534F;
+}
+
+#product-img {
+    display: block; 
+    height: auto;
+    width: 100%; 
+    max-width: 300px; 
+    margin: auto; 
+    object-fit: cover; 
+    padding-top: 1.3rem; 
+}
+
+@media (max-width: 576px) {
+    #product-img {
+        max-width: 100%; 
+    }
+}
+
+.btn-primary {
+    background-color: #16423C; 
+    border-color: #16423C; 
+}
+
+.btn-primary:hover {
+    background-color: #6A9C89; 
+    border-color: #6A9C89; 
+}
+
+.btn-warning {
+    background-color: #F0AD4E;
+    border-color: #F0AD4E;
+}
+
+.btn-danger {
+    background-color: #D9534F; 
+    border-color: #D9534F;
+}
+
+a {
+    color: #16423C; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6A9C89; 
+}

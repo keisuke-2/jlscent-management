@@ -1,0 +1,13 @@
+Leader: Emmanuel Isaac Robles
+
+Members: John Jordan Ordonio
+         Deniel Santos
+         Lemuel Sta.Maria
+         Mary Irish Velasco
+
+
+Function to present: Admin side
+                     Dashboard (Revenue and Orders)
+                     Products (Add, Edit, Delete products)
+                     Orders (Updating the status of the order)
+                     Accounts (Add, Edit, Delete accounts)

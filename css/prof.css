@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #16423C, #6A9C89);
+    line-height: 1.6;
+    overflow-x: hidden;
+    position: relative;
+    color: #E9EFEC; 
+}
+
+header {
+    background: linear-gradient(to right, rgba(51, 51, 51, 0.9), rgba(85, 85, 85, 0.9)); 
+    color: #E9EFEC;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.profile-container {
+    margin-top: 50px;
+    max-width: 900px;
+}
+
+.profile-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.profile-sidebar {
+    border-right: 1px solid #e9ecef;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #6A9C89; 
+}
+
+.list-group-item {
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #E9EFEC; 
+}
+
+.list-group-item.active {
+    background: linear-gradient(to right, #16423C, #6A9C89);
+    color: #E9EFEC;
+}
+
+.btn-outline-primary {
+    border-color: #16423C; 
+    color: #16423C;
+}
+
+.btn-outline-primary:hover {
+    background-color: linear-gradient(to right, #16423C, #6A9C89);
+    color: #fff;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+form label {
+    font-weight: 600;
+    color: #000000; 
+}
+
+input, select, textarea {
+    color: #000000; 
+    background-color: #E9EFEC; 
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #16423C; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(22, 66, 60, 0.5); 
+}

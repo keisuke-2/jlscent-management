@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #16423C, #6A9C89); 
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #16423C, #6A9C89); 
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #E9EFEC; 
+    font-size: 2em;
+}
+
+.form-control-lg {
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: #16423C; 
+    background-color: #E9EFEC; 
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #16423C, #6A9C89); 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #6A9C89, #16423C); 
+    transform: scale(1.03);
+}
+
+p {
+    font-size: 0.9em;
+    color: #777; 
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #6A9C89;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #16423C; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(22, 66, 60, 0.5); 
+}

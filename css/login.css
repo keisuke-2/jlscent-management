@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #16423C, #6A9C89); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    color: #E9EFEC; 
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    gap: 40px;
+}
+
+.left-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.left-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5em;
+    color: #E9EFEC; 
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 1.2em;
+    color: #E9EFEC; 
+    line-height: 1.8;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-card h2 {
+    font-size: 2em;
+    color: #16423C; 
+    margin-bottom: 10px;
+}
+
+.form-description {
+    font-size: 1em;
+    color: #6A9C89; 
+    margin-bottom: 20px;
+}
+
+.login-card input,
+.login-card select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #fafafa;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-card input:focus,
+.login-card select:focus {
+    border-color: #6A9C89; 
+    box-shadow: 0 0 5px rgba(106, 156, 137, 0.5);
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #6A9C89, #16423C); 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.login-button:hover {
+    background: linear-gradient(to right, #16423C, #6A9C89); 
+    transform: scale(1.03);
+}
+
+.forgot-password {
+    display: block;
+    margin: 15px 0;
+    color: #6A9C89; 
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.create-account {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #6A9C89, #16423C); 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.create-account:hover {
+    background: linear-gradient(to right, #16423C, #6A9C89); 
+    transform: scale(1.03);
+}
+
+.create-page {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #6A9C89; 
+    line-height: 1.5;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+.reset-button {
+    background: linear-gradient(to right, #6A9C89, #16423C); 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.reset-button:hover {
+    background: linear-gradient(to right, #16423C, #6A9C89); 
+    transform: scale(1.03);
+}
+
+.back-to-login {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #6A9C89; 
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.back-to-login:hover {
+    color: #16423C; 
+    text-decoration: underline;
+    transform: scale(1.05);
+}
